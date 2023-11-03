@@ -105,7 +105,7 @@ public class Main {
                             int newDoor = input.nextInt();
                             for (Vehicle x : manage.print_vehicles()) {
                                 if (ID == x.getId()) {
-
+// HOCAM BURASI ----------------------------------------------------------------------------------------------------------------------------------------------- BURASI !!! door u super class da değil de sub class da tanımladığım için ulaşamıyorum.
                                 } else {
                                     System.out.println("There is no ided " + ID);
                                 }
@@ -173,7 +173,7 @@ public class Main {
                             int newLimit = input.nextInt();
                             for (Vehicle x : manage.print_vehicles()) {
                                 if (ID2 == x.getId()) {
-
+// HOCAM BURASI ----------------------------------------------------------------------------------------------------------------------------------------------- BURASI !!! 
                                 } else {
                                     System.out.println("There is no ided " + ID2);
                                 }
